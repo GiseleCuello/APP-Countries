@@ -1,0 +1,40 @@
+@font-face {
+  font-family: miFuente;
+  src: url("../../CroissantOne-Regular.ttf") format("truetype");
+}
+
+.landing {
+  background-image: url("../../Assets/landing3.jpg");
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: cover;
+}
+
+.titulo {
+  font-family: miFuente;
+  font-size: 3em;
+  text-align: center;
+  padding-top: 4.5em;
+}
+.btn {
+  text-align: center;
+}
+
+.boton {
+  font-family: miFuente;
+  color: #010305 !important;
+  font-size: 18px;
+  text-shadow: 1px 1px 0px #31b097;
+  box-shadow: 1px 1px 1px #bee2f9;
+  padding: 10px 45px;
+  border-radius: 10px;
+  border: 2px solid #538ad3;
+  background: #63b8ee;
+  background: linear-gradient(to top, #63b8ee, #468ccf);
+}
+.boton:hover {
+  color: #14396a !important;
+  background: #468ccf;
+  background: linear-gradient(to top, #468ccf, #63b8ee);
+}
